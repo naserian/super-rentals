@@ -9,6 +9,8 @@ Router.map(function() {
   this.route('about');
   this.route('contact');
   this.route('rental', {path: '/rental/:rental_id'});
+  this.route('review');
+  this.route('new-review');
 });
 
 export default Router;
